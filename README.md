@@ -19,8 +19,18 @@ peft的测试demo，如果配置了wandb，训练日志自动上传
         pip install -r requirements.txt
         ```
 
-### 测试
-- 情感分析:
-  ```shell
-  python train_emotional.py
-  ```
+### Demo
+情感分析:
+- 训练:
+    ```shell
+    python emotional_train.py
+    ```
+
+- 推测:
+    ```shell
+    python emotional_test.py
+    ```
+
+
+### 截图
+![image](https://github.com/Samge0/peft-test/assets/17336101/7b5c3f60-b8e5-4e76-b278-9290516a3513)
