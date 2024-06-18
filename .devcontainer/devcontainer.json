@@ -1,0 +1,12 @@
+{
+	"name": "peft-test",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "peft-test",
+    "workspaceFolder": "/app",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.debugpy",
+        "humao.rest-client",
+        "samge.vscode-samge-translate"
+    ]
+}
